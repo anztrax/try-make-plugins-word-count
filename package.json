@@ -1,19 +1,20 @@
 {
   "name": "try-make-plugins-word-count",
   "main": "./lib/try-make-plugins-word-count",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "try-make-plugins-word-count:toggle"
   },
-  "activationHooks" : ["language-javascript:grammar-used", "language-coffee-script:grammar-used"],
+  "activationHooks": [
+    "language-javascript:grammar-used",
+    "language-coffee-script:grammar-used"
+  ],
   "repository": "https://github.com/anztrax/try-make-plugins-word-count.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
