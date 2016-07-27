@@ -3,7 +3,14 @@
     "atom-text-editor": [
       {
         "label": "Toggle try-make-plugins-word-count",
-        "command": "try-make-plugins-word-count:toggle"
+        "submenu" : [
+          {"label" : "Inspect element", "command" : "core:inspect"},
+          {"type" : "separator"},
+          {"label" : "Selector All", "command" : "core:select-all"},
+          {"type" : "separator"},
+          {"label": "Deleted Selected Text", "command": "core:delete"},
+          {"label" : "try-make-plugins-word-count:toggle" , "command" : "try-make-plugins-word-count:toggle"}
+        ]
       }
     ]
   },
@@ -17,6 +24,10 @@
             {
               "label": "Toggle",
               "command": "try-make-plugins-word-count:toggle"
+            },
+            {
+              "label" : "Do Something",
+              "command" : "try-make-plugins-word-count:do something"
             }
           ]
         }
