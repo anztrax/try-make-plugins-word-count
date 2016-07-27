@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle try-make-plugins-word-count",
+        "command": "try-make-plugins-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "try-make-plugins-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "try-make-plugins-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

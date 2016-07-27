@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "try-make-plugins-word-count:toggle"
+  }
+}
